@@ -1,1 +1,53 @@
 
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    font-family: Tahoma, serif;
+    font-size: 40px;
+}
+
+
+
+.box-content {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    height: 150px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    border-left-width: 10px;
+    text-align: left;
+    text-indent: 10px;
+    background-color: #eeeff2;
+    margin-right: 10px;
+}
+
+.box-content:hover {
+    cursor: grab;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.box-a {}
+
+.box-b {}
+
+.box-c {}
+
+.box-d {}
+
+.box-e {}
+
+.box-f {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
